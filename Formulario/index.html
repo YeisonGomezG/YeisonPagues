@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+
+         <form method="POST" action="https://divisist2.ufps.edu.co/">
+
+            <label for="Nombre">Nombre</label>
+            <input type = "Text" name = "Nombre" id = "Nombre" maxlength = "50" placeholder= "Digite su nombre y apellido" required>
+            <br>
+
+            <label for="subject">Asunto</label>
+            <input type = "Text" name = "subject" id = "subject" maxlength = "50" placeholder= "Digite su nombre y apellido" required>
+            <br>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite su Email" >
+            <br/>
+
+            <label for="password">contraseña</label>
+            <input type="password" name="Password" id="Password" maxlength="50" placeholder="Digite su contraseña" maxlength="40">
+            <br>
+
+            <label for="file">Archivo</label>
+            <input type="file" name="file" id="file" maxlength="50" placeholder="Anexe su archivo" maxlength="40">
+            <br>
+
+            <label for="lang">Lenguajes de Programación</label>
+            <select name="lang" id="lang">
+                <option value=>Phyton</option>
+                <option value=>Java</option>
+                <option value=>CSS</option>
+                <option value=>JavaScript</option>
+                <option value=>HTML</html></option> 
+            </select>
+            <br>
+
+            <label for="textarea">Escribe tu mensaje</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            <hr>
+            
+            <input type="submit" name="submit" id="submit" maxlength="80">
+
+        </form>
+</body>
+</html>
